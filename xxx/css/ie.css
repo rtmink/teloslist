@@ -1,0 +1,7 @@
+a img {border-style: none}
+/* Menu */
+.menu li a span {top: 20px}
+/* Img Preview */
+form input.dga_img_button {line-height: 37px;height: 37px;width: 290px;background-color: #fff;padding: 0 10px;border: 1px solid #ccc;border-top: none;}
+
+#stupidIEButtonHP {height: 31px}

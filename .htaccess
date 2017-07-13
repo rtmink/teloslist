@@ -1,0 +1,16 @@
+<FILES .htaccess>
+order allow,deny 
+deny from all
+</FILES>
+
+Options -MultiViews
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+ErrorDocument 400 /pnf.php
+ErrorDocument 401 /pnf.php
+ErrorDocument 403 /404.php
+ErrorDocument 404 /404.php
+ErrorDocument 500 /pnf.php

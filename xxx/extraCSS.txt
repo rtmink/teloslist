@@ -1,0 +1,28 @@
+.homepage {
+	-webkit-transition: all 4s ease-in-out;
+	-moz-transition: all 4s ease-in-out;
+	-o-transition: all 4s ease-in-out;
+	transition: all 4s ease-in-out;
+	-webkit-perspective: 800px;
+	-webkit-perspective-origin: 50% 100px;
+	-moz-perspective: 800px;
+	-moz-perspective-origin: 50% 100px;
+	-o-perspective: 800px;
+	-o-perspective-origin: 50% 100px;
+	perspective: 800px;
+	perspective-origin: 50% 100px;
+}
+.homepage:hover {
+	-webkit-transform: rotateY(360deg);
+	-moz-transform: rotateY(360deg);
+	-o-transform: rotateY(360deg);
+	transform: rotateY(360deg);
+}
+#homepage:hover {
+  -webkit-animation: wiggle 1s ease-in-out alternate;
+  -moz-animation: wiggle 1s ease-in-out alternate;
+  -ms-animation: wiggle 1s ease-in-out alternate
+
+
+/*box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.2);-webkit-box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.2);-moz-box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.2);*/
+/*box-shadow: 0 1px 12px rgba(0, 0, 0, 0.6);-webkit-box-shadow: 0 1px 12px rgba(0, 0, 0, 0.6);-moz-box-shadow: 0 1px 12px rgba(0, 0, 0, 0.6);*/
